@@ -2,17 +2,19 @@
 
 Estructura que compone a esta plantilla.
 
-
-* Modulos
+* modules
+  * bastion
+  * network
+  * vm
 * .azdo
-    * azure-pipelines.yaml
+  * azure-pipelines.yaml
 * main.tf
 * backend.tf
 * variables.tf
+* provider.tf
 
 ------------
 Notas para considerar:
 
-- Posibles archivos por agregar
-
-
+- Archivos completamente vacíos para trabajar en un entorno en blanco.
+- Estructura esperada para trabajar con Azure DevOps pipelines.
